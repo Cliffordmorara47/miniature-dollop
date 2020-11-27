@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(241, 229, 229);
+}
+h1, caption{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: maroon;
+}
+table,th{
+    border: 3px solid black;
+    font-style: italic;
+    
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(6, 44, 6);
+    text-size-adjust: 20px;
+    text-justify: newspaper;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+th, td{
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    text-align: left;
+}
+table{
+    border-spacing: 5px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsgQDP97aW4F_1LCqv7lXTwpclbSj6RUw0AA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(81, 228, 154);
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
